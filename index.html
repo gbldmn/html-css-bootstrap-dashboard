@@ -16,7 +16,7 @@
            
             <nav class="navbar gr">
                 <div class="container-fluid">
-                  <form class="d-flex bg" role="search">
+                  <form class="d-flex flex-grow-1 bg" role="search">
                     <input class="form-control" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="search">
                   </form>
                 </div>
@@ -30,9 +30,9 @@
 
         <div class="container-fluid height-custom">
             <div class="row h-100">
-                <div class="side col-2 col-md-1 bg-side row flex-column space-between text-left">
-                    
-                        <div class="box text-center">
+                <div class="side col-2 col-md-1">
+                    <div class="bg-side row flex-column space-between text-left height">
+                      <div class="box text-center">
                             <i class="fa-solid fa-house text-white d-block mt-2 mb-1"></i>
                             <span class="text-white d-none d-sm-block">home</span>
                             <i class="fa-solid fa-chart-simple text-white mb-1"></i>
@@ -41,20 +41,39 @@
                             <i class="fa-solid fa-signal text-white d-block mb-1"></i>
                             <span class="text-white d-none d-sm-block">signals</span>
                         </div>
-                        <div class="box">
+                        <div class="box text-center">
                             <i class="fa-solid fa-gear text-white d-block mb-1"></i>
                             <span class="text-white d-none d-sm-block mb-2">admin</span>
                         </div>
-                    
+                    </div>
                 </div>
-                <div class="main col-10 col-md-11">
-                    <div class="basis-blue row col-12">
-                        <div>nuovo studente <i class="fa-regular fa-square-plus"></i> </div>
-                        <div>
-                           <span> boolean</span>
-                           <span class="badge text-bg-light">Light</span>
+
+                <!-- main -->
+                <div class="main col-10 col-md-11 tar">
+                    <div class="basis-blue row">
+                        <div class="col-12  col-sm-4 text-white mb-2  ">nuovo studente  <button class="btn btn-primary mt-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <i class="fa-solid fa-plus"></i> </button>
+
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                              <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                              </div>
+                              <div class="offcanvas-body">
+                                ...
+                              </div>
+                            </div>
+                         </div>
+                        <div class="col-12  col-sm-4 text-white mb-2 ">
+                           <span> BOOLEAN</span>
+                           <span class="badge text-bg-primary">Piano blaze</span><br>
+                           <span class="badge text-bg-primary">3 app</span>
+                           <span class="badge text-bg-primary d-none  d-sm-inline-block">boolean app</span>
+                           <span class="badge text-bg-primary d-none  d-sm-inline-block">boolean web app</span>
+                           <span class="badge text-bg-primary d-none  d-sm-inline-block">boolean blog app</span>
+                           <i class="fa-solid fa-arrow-right-from-arc"></i>
+                           <span class="badge text-bg-primary d-sm-none">+</span>
                         </div>
-                        <div>
+                        <div class="col-12  col-sm-4 text-white mb-2 ">
                             <span>studenti online negli ultimi 30 minuti</span>
                             <h3>125</h3>
                         </div>
