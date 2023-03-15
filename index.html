@@ -10,42 +10,57 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="vh-100 bg-black">
+    <div class="vh-100 ">
         <div class="header bg-light">
-            <img src="img/mobile-logo.png" height="90%" alt="">
-            <input class="impostazioni" list="datalistOptions" id="exampleDataList" placeholder="Prova a cercare: Lezioni di Laravel...">
-              <datalist id="datalistOptions">
-              <option value="San Francisco">
-              <option value="New York">
-              <option value="Seattle">
-              <option value="Los Angeles">
-              <option value="Chicago">
-            </datalist> 
-            <i class="fa-solid fa-bars p-1 d-none d-sm-block  "></i>
-            <i class="fa-solid fa-circle-question p-1 d-none d-sm-block  "></i>
-            <i class="fa-solid fa-ellipsis-vertical p-1  d-none d-sm-block "></i>
-            <i class="fa-solid fa-bell text-yellow p-1 "></i>
+            <img class="logo" src="img/mobile-logo.png" alt="">
+           
+            <nav class="navbar gr">
+                <div class="container-fluid">
+                  <form class="d-flex bg" role="search">
+                    <input class="form-control" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="search">
+                  </form>
+                </div>
+              </nav>
+
+            <i class="fa-solid fa-bars p-1 d-none d-sm-block top left"></i>
+            <i class="fa-solid fa-circle-question p-1 d-none d-sm-block top left"></i>
+            <i class="fa-solid fa-ellipsis-vertical p-1  d-none d-sm-block top left"></i>
+            <i class="fa-solid fa-bell text-yellow top-1 left"></i>
         </div>
+
         <div class="container-fluid height-custom">
             <div class="row h-100">
-                <div class="side col-1 bg-side row flex-column space-between text-left">
+                <div class="side col-2 col-md-1 bg-side row flex-column space-between text-left">
                     
                         <div class="box text-center">
-                            <i class="fa-solid fa-house text-white"></i>
-                            <span class="text-white">home</span>
-                            <i class="fa-solid fa-chart-simple text-white"></i>
-                            <span class="text-white">stats</span>
+                            <i class="fa-solid fa-house text-white d-block mt-2 mb-1"></i>
+                            <span class="text-white d-none d-sm-block">home</span>
+                            <i class="fa-solid fa-chart-simple text-white mb-1"></i>
+                            <span class="text-white d-none d-sm-block">stats</span>
                             
-                            <i class="fa-solid fa-signal text-white"></i>
-                            <span class="text-white d-sm-none">signals</span>
+                            <i class="fa-solid fa-signal text-white d-block mb-1"></i>
+                            <span class="text-white d-none d-sm-block">signals</span>
                         </div>
                         <div class="box">
-                            <i class="fa-solid fa-gear text-white"></i>
-                            <span class="text-white">admin</span>
+                            <i class="fa-solid fa-gear text-white d-block mb-1"></i>
+                            <span class="text-white d-none d-sm-block mb-2">admin</span>
                         </div>
                     
                 </div>
-                <div class="main col-11"></div>
+                <div class="main col-10 col-md-11">
+                    <div class="basis-blue row col-12">
+                        <div>nuovo studente <i class="fa-regular fa-square-plus"></i> </div>
+                        <div>
+                           <span> boolean</span>
+                           <span class="badge text-bg-light">Light</span>
+                        </div>
+                        <div>
+                            <span>studenti online negli ultimi 30 minuti</span>
+                            <h3>125</h3>
+                        </div>
+
+                    </div>
+                </div>
 
                 
                 
