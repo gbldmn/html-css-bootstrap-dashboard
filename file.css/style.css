@@ -51,14 +51,79 @@ margin-top: 20px;
 .top-1 {
     margin-top: 24px;
 }
- 
+
 /* main */
+
+.main {
+    background-color: #F8F9FA;
+    overflow: scroll;
+
+}
 
 .basis-blue {
     height: calc(100% -180px);
     background-color: #1B72E8;
-}    
- 
-.tar {
-    overflow: scroll;
+}
+
+
+/* tabella prossime classi */
+
+.avatar {
+    height: 20px;
+}
+
+.rte {
+    width: 100%;
+}
+.faq {
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 30px;
+}
+.vrt {
+    border: 1pxsolid black;
+}
+.fle {
+    
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.table {
+    background-color: white;
+}
+
+
+     /* offcanvas */
+
+.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+    --bs-offcanvas-zindex: 1045;
+    --bs-offcanvas-width: 600px;
+    --bs-offcanvas-height: 30vh;
+    --bs-offcanvas-padding-x: 1rem;
+    --bs-offcanvas-padding-y: 1rem;
+    --bs-offcanvas-color: var(--bs-body-color);
+    --bs-offcanvas-bg: var(--bs-body-bg);
+    --bs-offcanvas-border-width: var(--bs-border-width);
+    --bs-offcanvas-border-color: var(--bs-border-color-translucent);
+    --bs-offcanvas-box-shadow: 0 0.125rem 0.25rem rgba(var(--bs-body-color-rgb), 0.075);
+    --bs-offcanvas-transition: transform 0.3s ease-in-out;
+    --bs-offcanvas-title-line-height: 1.5;
+}
+.gil {
+    
+    border-radius: 10px;
+    
+}
+.loh {
+    width: 500px;
+}
+.form-select-2 {
+   
+    display: block;
+    width: 150px;
+    
+   
+
+    
 }

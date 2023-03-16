@@ -22,10 +22,10 @@
                 </div>
               </nav>
 
-            <i class="fa-solid fa-bars p-1 d-none d-sm-block top left"></i>
-            <i class="fa-solid fa-circle-question p-1 d-none d-sm-block top left"></i>
-            <i class="fa-solid fa-ellipsis-vertical p-1  d-none d-sm-block top left"></i>
-            <i class="fa-solid fa-bell text-yellow top-1 left"></i>
+            <i class="fa-solid fa-bars p-1 d-none d-sm-block top left ms-4"></i>
+            <i class="fa-solid fa-circle-question p-1 d-none d-sm-block top left ms-4"></i>
+            <i class="fa-solid fa-ellipsis-vertical p-1  d-none d-sm-block top left ms-4"></i>
+            <i class="fa-solid fa-bell text-yellow top-1 left ms-5"></i>
         </div>
 
         <div class="container-fluid height-custom">
@@ -49,17 +49,66 @@
                 </div>
 
                 <!-- main -->
-                <div class="main col-10 col-md-11 tar">
+                <div class="main col-10 col-md-11 vh-100">
+
+                  <!--  prima parte celeste -->
                     <div class="basis-blue row">
                         <div class="col-12  col-sm-4 text-white mb-2  ">nuovo studente  <button class="btn btn-primary mt-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <i class="fa-solid fa-plus"></i> </button>
 
-                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                               <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">inserisci un nuovo utente</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                               </div>
+                                   <!--  offcanvas -->
                               <div class="offcanvas-body">
-                                ...
+                                   <div class="d-inline-block">
+                                     <span><strong> nome</strong></span><br>
+                                    <input class="gil" type="text" name="yourname" value="">
+                                   </div>
+                                   <div class="d-inline-block ms-5"> 
+                                    <span><strong> cognome</strong></span><br>
+                                    <input class="gil" type="text" name="yourname" value="">
+                                   </div>
+
+
+                                   <div class="d-inline-block mt-3">
+                                    <span><strong> email</strong></span><br>
+                                   <input class="gil" type="text" name="yourname" value="">
+                                  </div>
+                                  <div class="d-inline-block ms-5 mt-3"> 
+                                   <span><strong> password</strong></span><br>
+                                   <input class="gil" type="text" name="yourname" value="">
+                                  </div>
+                                  <div class="d-inline-block mt-3">
+                                    <span><strong> indirizzo</strong></span><br>
+                                   <input class="gil loh" type="text" name="yourname" value="">
+                                  </div>
+                                  <div class="d-inline-block">
+                                    <span> <strong> città</strong></span><br>
+                                    <input class="gil" type="text" name="yourname" value="">
+                                  </div>
+                                  <div class="d-inline-block">
+                                    <span> <strong> stato</strong></span><br>
+                                    <select class="form-select-2 gil " aria-label="Default select example"></select>
+                                  </div>
+                                  <div class="d-inline-block">
+                                    <span> <strong> CAP</strong></span><br>
+                                    <input class="gil" type="text" name="yourname" value="">
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="formFile" class="form-label"> <strong> Foto</strong></label>
+                                    <input class="form-control" type="file" id="formFile">
+                                  </div>
+                                  
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                     <strong> seleziona per proseguire</strong>
+                                    </label>
+                                  </div>
+                                  <button type="button" class="btn btn-primary">Salva</button>
+                                  <button type="button" class="btn btn-warning">Svuota</button>
                               </div>
                             </div>
                          </div>
@@ -79,6 +128,157 @@
                         </div>
 
                     </div>
+
+                    <!-- tabella prossime classi  -->
+
+                    <div class="row">
+                        <div class="col-12 col-md-12 col-lg-6 mb-1 ">
+                          <div class="faq">
+                          <h2>prossime classi</h2>
+                          </div>
+                          <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">nome</th>
+                                <th class="d-none d-md-table-cell" scope="col">Data inizio</th>
+                                <th class="d-none d-md-table-cell" scope="col">ROI</th>
+                                <th scope="col">Stato</th>
+                                <th scope="col">Azioni</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td><img class="avatar" src="img/class-avatar.jpg" alt=""> <strong>clas 75</strong></td>
+                                <td class="d-none d-md-table-cell"> <strong> 15 febbraio 2021</strong></td>
+                                <td class="d-none d-md-table-cell ">20%</td>
+                                <td> <span class="badge rounded-pill text-bg-success">Done</span> </td>
+                                <td> <button type="button" class="btn btn-light"> <i class="fa-solid fa-pen"></i>  </button> <button type="button" class="btn btn-light"> <i class="fa-solid fa-trash-can"></i> </button> </td>
+                              </tr>
+                              <tr>
+                                <td><img class="avatar" src="img/class-avatar.jpg" alt=""> <strong>clas 76</strong></td>  </td>
+                                <td class="d-none d-md-table-cell"><strong> 16 febbraio 2021</strong></td>
+                                <td class="d-none d-md-table-cell">20%</td>
+                                <td> <span class="badge rounded-pill text-bg-success">Done</span> </td> </td>
+                                <td> 
+                                  <button type="button" class="btn btn-light"> <i class="fa-solid fa-pen"></i>  </button> <button type="button" class="btn btn-light"> <i class="fa-solid fa-trash-can"></i> </button>  
+                                </td>
+                              </tr>
+                              <tr>
+                                <td><img class="avatar" src="img/class-avatar.jpg" alt=""> <strong>clas 77</strong></td>  </td>
+                                <td class="d-none d-md-table-cell" ><strong> 17 febbraio 2021</strong></td>
+                                <td class="d-none d-md-table-cell">20%</td>
+                                <td> <span class="badge text-bg-warning">Process</span> </td> </td>
+                                <td> 
+                                  <button type="button" class="btn btn-light"> <i class="fa-solid fa-pen"></i>  </button> <button type="button" class="btn btn-light"> <i class="fa-solid fa-trash-can"></i> </button>  
+                                </td>
+                              </tr>
+                              <tr>
+                                <td><img class="avatar" src="img/class-avatar.jpg" alt=""> <strong>clas 78</strong></td>
+                                <td class="d-none d-md-table-cell"> <strong> 18 febbraio 2021</strong></td>
+                                <td class="d-none d-md-table-cell">20%</td>
+                                <td> <span class="badge rounded-pill text-bg-success">Done</span> </td>
+                                <td> <button type="button" class="btn btn-light"> <i class="fa-solid fa-pen"></i>  </button> <button type="button" class="btn btn-light"> <i class="fa-solid fa-trash-can"></i> </button> </td>
+                              </tr>
+                              <tr>
+                                <td><img class="avatar" src="img/class-avatar.jpg" alt=""> <strong>clas 79</strong></td>
+                                <td class="d-none d-md-table-cell"> <strong> 19 febbraio 2021</strong></td>
+                                <td class="d-none d-md-table-cell">20%</td>
+                                <td> <span class="badge text-bg-danger">Failed</span> </td>
+                                <td> <button type="button" class="btn btn-light"> <i class="fa-solid fa-pen"></i>  </button> <button type="button" class="btn btn-light"> <i class="fa-solid fa-trash-can"></i> </button> </td>
+                              </tr>
+                              <tr>
+                                <td><img class="avatar" src="img/class-avatar.jpg" alt=""> <strong>clas 80</strong></td>
+                                <td class="d-none d-md-table-cell"> <strong> 20 febbraio 2021</strong></td>
+                                <td class="d-none d-md-table-cell">20%</td>
+                                <td> <span class="badge rounded-pill text-bg-success">Done</span> </td>
+                                <td> <button type="button" class="btn btn-light"> <i class="fa-solid fa-pen"></i>  </button> <button type="button" class="btn btn-light"> <i class="fa-solid fa-trash-can"></i> </button> </td>
+                              </tr>
+                              <tr>
+                                <td><img class="avatar" src="img/class-avatar.jpg" alt=""> <strong>clas 81</strong></td>
+                                <td class="d-none d-md-table-cell"> <strong> 21 febbraio 2021</strong></td>
+                                <td class="d-none d-md-table-cell">20%</td>
+                                <td> <span class="badge text-bg-danger">Failed</span> </td>
+                                <td> <button type="button" class="btn btn-light"> <i class="fa-solid fa-pen"></i>  </button> <button type="button" class="btn btn-light"> <i class="fa-solid fa-trash-can"></i> </button> </td>
+                              </tr>
+                              <tr>
+                                <td><img class="avatar" src="img/class-avatar.jpg" alt=""> <strong>clas 82</strong></td>
+                                <td class="d-none d-md-table-cell"> <strong> 22 febbraio 2021</strong></td>
+                                <td class="d-none d-md-table-cell">20%</td>
+                                <td> <span class="badge rounded-pill text-bg-success">Done</span> </td>
+                                <td> <button type="button" class="btn btn-light"> <i class="fa-solid fa-pen"></i>  </button> <button type="button" class="btn btn-light"> <i class="fa-solid fa-trash-can"></i> </button> </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                  <!-- tabella f.a.q -->
+                          <div class="faq">
+                            <h2>F.A.Q</h2>
+                          </div>
+                          <select class="form-select" aria-label="Default select example">
+                            <option selected>come aggiungere un nuovo studente?</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <select class="form-select" aria-label="Default select example">
+                            <option selected>Come posso accedere alle info del mio account?</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          <select class="form-select" aria-label="Default select example">
+                            <option selected>Posso usare questa dashboard da mobile? </option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                          
+
+
+
+                        </div>
+                        <div class="col-12 col-md-12 col-lg-6  mt-2  ">
+                      <!-- tabella todo -->
+                          <div class="faq table">
+                            <h2>Todo</h2>
+                          </div>
+                          <div class="form-check table">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                             kickoff nuove classi
+                            </label>
+                          </div>
+                          <div class="form-check table">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Lezione su bootstrap 5 in classe #75
+                            </label>
+                          </div>
+                          <div class="form-check table">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Controllare username githubstudenti
+                            </label>
+                          </div>
+
+                <!--  card grafico -->
+                          <div class="card fle" style="width: 27rem;">
+                            <img src="img/stats.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Utenti Attivi</h5>
+                              <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">Gennaio: 1200</li>
+                              <li class="list-group-item">febbraio: 800</li>
+                              <li class="list-group-item">Marzo: 1200</li>
+                            </ul>
+                            <div class="card-body">
+                              <a href="#" class="card-link">Visualizza report approfondito</a>
+                              
+                            </div>
+                          </div>
+
+                       
                 </div>
 
                 
