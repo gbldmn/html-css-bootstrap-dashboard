@@ -27,7 +27,9 @@
 .space-between {
     justify-content: space-between;
 }
-
+.bottom {
+    margin-bottom: 80px;
+}
 .text-left {
     text-align: left;
 }
@@ -79,7 +81,7 @@ margin-top: 20px;
     background-color: #F7F7F7;
     border-radius: 10px;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .vrt {
     border: 1pxsolid black;
