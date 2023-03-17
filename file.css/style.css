@@ -16,9 +16,13 @@
 .header{
    padding: 15px;
    display: flex;
+   align-items: center;
 }
 .logo {
    height: 50px;
+}
+.logo-big {
+    height: 30px;
 }
 
 .height-custom{
@@ -59,6 +63,7 @@ margin-top: 20px;
 .main {
     background-color: #F8F9FA;
     overflow: scroll;
+    height: calc(100vh - 84px);
 
 }
 
